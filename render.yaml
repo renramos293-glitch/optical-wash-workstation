@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: optical-wash-workstation
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /tasks
+    envVars:
+      - key: NODE_VERSION
+        value: 24.15.0

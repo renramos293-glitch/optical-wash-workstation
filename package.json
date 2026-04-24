@@ -1,0 +1,23 @@
+{
+  "name": "2026-04-24-http-211-101-246-191-5000",
+  "version": "1.0.0",
+  "description": "Clone of the target media upload and task board workflow",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "multer": "^2.1.1",
+    "sharp": "^0.34.5"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2"
+  }
+}
